@@ -1,0 +1,28 @@
+{
+  "name": "gideon",
+  "version": "1.0.0",
+  "description": "Simple Bot for Whatsapp",
+  "main": "index.js",
+  "author": "João Victor",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "tsnd --ignore-watch node_modules --respawn src/index.ts"
+  },
+  "dependencies": {
+    "@open-wa/wa-automate": "^3.2.0",
+    "axios": "^0.21.1",
+    "sharp": "^0.27.1"
+  },
+  "devDependencies": {
+    "@types/sharp": "^0.27.1",
+    "@types/axios": "^0.14.0",
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}

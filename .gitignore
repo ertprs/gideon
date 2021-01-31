@@ -1,0 +1,5 @@
+# Misc
+node_modules
+.node-persist
+yarn.lock
+Gideon.data.json
